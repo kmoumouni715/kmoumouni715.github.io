@@ -16,4 +16,6 @@
 
 <p><a href="/scorecard1.html" target="blank">Scorecard Assignment - Soccer</a></p>
 
+<p><a href="/scorecard2.html" target="blank">Scorecard Assignment - T-Ball</a></p>
+
 <p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
