@@ -12,4 +12,6 @@
 
 <p><a href="/stylishschedule.html" target="blank">Stylish Schedule Assignment</a></p>
 
+<p><a href="/teampage.html" target="blank">Team Page Assignment</a></p>
+
 <p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
