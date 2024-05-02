@@ -10,4 +10,6 @@
 
 <p><a href="/restaurantmenu.html" target="blank">Restaurant Menu Assignment</a></p>
 
+<p><a href="/stylishschedule.html" target="blank">Stylish Schedule Assignment</a></p>
+
 <p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
