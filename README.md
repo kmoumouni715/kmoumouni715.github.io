@@ -20,6 +20,8 @@
 
 <p><a href="/scorecard3.html" target="blank">Scorecard Assignment - Lawn Tennis</a></p>
 
+<p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
+
 <p><a href="/imitation.html" target="blank">Imitation Assignment</a></p>
 
-<p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
+<p><a href="/reviewcards.html" target="blank">Review Cards Assignment</a></p>
