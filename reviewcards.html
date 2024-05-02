@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+#scroll-container {
+  border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+</style>
+</head>
+<body>
+<h2><div id="scroll-container">
+  <div id="scroll-text">Review Cards Assignment<div>
+</div></h2>
+
+<button class="accordion">Q1. How old do I have to be to take the  private pilot written test?</button>
+<div class="panel">
+  <p>At least 15 years old. </p>
+</div>
+
+<button class="accordion">Q2. How should I prepare for the knowledge test?</button>
+<div class="panel">
+  <p>You should study the materials identified by your flight instructor or included in a home-study course.</p>
+</div>
+
+<button class="accordion">Q3. How long is a satisfactorily completed knowledge test valid?</button>
+<div class="panel">
+  <p>A satisfactorily completed knowledge test expires 24 calendar-months after the month it was taken.</p>
+</div>
+
+<button class="accordion">Q4. What is a hazardous material?</button>
+<div class="panel">
+  <p>A hazardous material is defined as a substance or material that is capable of posing an unreasonable risk to health, safety, and property when transported in commerce.</p>
+</div>
+
+<button class="accordion">Q5. What does "hazmat employer" mean?</button>
+<div class="panel">
+  <p>A person who employs or uses at least one hazmat employee on a full-time, part time, or temporary basis."</p>
+</div>
+
+<button class="accordion">Q6. Can I conduct my own internal training?</button>
+<div class="panel">
+  <p>Yes you can.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
