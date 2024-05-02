@@ -8,4 +8,6 @@
 
 <p><a href="/colorscheme.html" target="blank">Color Scheme Assignment</a></p>
 
+<p><a href="/restaurantmenu.html" target="blank">Restaurant Menu Assignment</a></p>
+
 <p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
