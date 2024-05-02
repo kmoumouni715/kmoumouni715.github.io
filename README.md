@@ -14,6 +14,6 @@
 
 <p><a href="/teampage.html" target="blank">Team Page Assignment</a></p>
 
-<p><a href="/scorecards.html" target="blank">Scorecards Assignment</a></p>
+<p><a href="/scorecard1.html" target="blank">Scorecard Assignment - Soccer</a></p>
 
 <p><a href="/VideoEmbedding.html" target="blank">Video Embedding Tutorial Assignment</a></p>
