@@ -25,3 +25,5 @@
 <p><a href="/imitation.html" target="blank">Imitation Assignment</a></p>
 
 <p><a href="/reviewcards.html" target="blank">Review Cards Assignment</a></p>
+
+<p><a href="/puttingitalltogether.html" target="blank">Putting It All Together</a></p>
